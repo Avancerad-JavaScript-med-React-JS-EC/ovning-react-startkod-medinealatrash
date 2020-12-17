@@ -8,15 +8,11 @@ ReactDOM.render(<h1>hej</h1>,document.getElementById('root')) */
 
 import Name from './name'
 
-function Name(){
-    return (
-        <h1>Jag hetr Medine</h1>
-    )
-}
+
 
 function App(){
     return (
-        <section>
+        <section className = 'wrapper'>
             <h2>Hello!!</h2>
             <Name />
             <Name />
