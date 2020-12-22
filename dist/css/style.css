@@ -1,19 +1,17 @@
-/* body {​​​​
 
+body{
     width: 100vw;
-
     height: 100vh;
-
-}​​​​
-
-
-
-.wrapper {​​​​
-
+}
+.wrapper{
     width: 100%;
-
     display: flex;
-
+    flex-direction: column;
     justify-content: center;
-
-}​​​​ */
+}
+.todo-list{
+    list-style-type: none;
+}
+.todo-item{
+   margin: 0.5rem; 
+}
